@@ -38,7 +38,7 @@
             <a href="#course" class="button btn-small">Discover</a>
           </div>
           <div class="story-images">
-            <img src="{{ asset('frontend/assets/images/goals.jpg') }}" alt="" class="story-img" />
+            <img src="{{ asset('frontend/assets/images/OIP.jpg') }}" alt="" class="story-img" />
             <div class="story-square"></div>
           </div>
         </div>
@@ -58,6 +58,7 @@
                   class="products-img"
                   alt=""
                 />
+
                 <h3 class="products-title">{{ $course->title }}</h3>
                 <div class="products-star">
                 @for ($star = 1; $star <= 5; $star++)
@@ -80,7 +81,7 @@
               </a>
               </article>
             @endforeach
-    
+
             </div>
             <div
               class="swiper-button-next"
@@ -117,17 +118,17 @@
                   labore reiciendis laboriosam quos at eum, sed sequi tempore
                   perspiciatis magnam iste quas sit minima provident!
                 </p>
-                <h3 class="testimonial-date">March 27, 2021</h3>
+                <h3 class="testimonial-date">May 20, 2023</h3>
 
                 <div class="testimonial-profile" style="justify-content: center;flex-direction: column;row-gap: 1.4rem;">
                   <img
-                    src="{{ asset('frontend/assets/images/testimonial1.jpg') }}"
+                    src="{{ asset('frontend/assets/images/télécharger.jpg') }}"
                     alt=""
                     class="testimonial-profile-img"
                   />
 
                   <div class="testimonial-profile-data">
-                    <span class="testimonial-profile-name">John Doe</span>
+                    <span class="testimonial-profile-name">lo Ibrahima</span>
                     <span class="testimonial-profile-detail"
                       >Director of a Company</span
                     >
@@ -143,17 +144,17 @@
                   labore reiciendis laboriosam quos at eum, sed sequi tempore
                   perspiciatis magnam iste quas sit minima provident!
                 </p>
-                <h3 class="testimonial-date">March 27, 2021</h3>
+                <h3 class="testimonial-date">May 20, 2023</h3>
 
                 <div class="testimonial-profile" style="justify-content: center;flex-direction: column;row-gap: 1.4rem;">
                   <img
-                    src="{{ asset('frontend/assets/images/testimonial1.jpg') }}"
+                    src="{{ asset('frontend/assets/images/télécharger.jpg') }}"
                     alt=""
                     class="testimonial-profile-img"
                   />
 
                   <div class="testimonial-profile-data">
-                    <span class="testimonial-profile-name">John Doe</span>
+                    <span class="testimonial-profile-name">lo Ibrahima</span>
                     <span class="testimonial-profile-detail"
                       >Director of a Company</span
                     >
@@ -169,17 +170,17 @@
                   labore reiciendis laboriosam quos at eum, sed sequi tempore
                   perspiciatis magnam iste quas sit minima provident!
                 </p>
-                <h3 class="testimonial-date">March 27, 2021</h3>
+                <h3 class="testimonial-date">May 20, 2023</h3>
 
                 <div class="testimonial-profile" style="justify-content: center;flex-direction: column;row-gap: 1.4rem;">
                   <img
-                    src="{{ asset('frontend/assets/images/testimonial1.jpg') }}"
+                    src="{{ asset('frontend/assets/images/télécharger.jpg') }}"
                     alt=""
                     class="testimonial-profile-img"
                   />
 
                   <div class="testimonial-profile-data">
-                    <span class="testimonial-profile-name">John Doe</span>
+                    <span class="testimonial-profile-name">Lo Ibrahima</span>
                     <span class="testimonial-profile-detail"
                       >Director of a Company</span
                     >

@@ -22,7 +22,7 @@
     <header class="header" id="header">
       <div class="nav container">
         <a href="{{ route('home') }}" class="nav-logo">
-        <i class='bx bx-compass'></i> BERAJAH
+            <img src="{{ asset('frontend/assets/images/G__5_-removebg-preview.png') }}" alt="" width="200">
         </a>
 
         <div class="nav-menu" id="nav-menu">
@@ -37,7 +37,7 @@
               @if(auth()->user()->isAdmin())
                 <li class="nav-item">
                   <a href="{{ route('admin.courses.index') }}" class="nav-link">Admin</a>
-                </li> 
+                </li>
               @endif
             @endauth
           </ul>
@@ -66,7 +66,7 @@
             </ul>
          @endauth
 
-         @guest 
+         @guest
          <ul class="nav-list nav-account" style="margin-top: 1rem">
                 <li class="nav-item" style="width: 100%; text-align: center">
                 <a
@@ -133,8 +133,8 @@
         <div class="footer-content">
           <h3 class="footer-title">Our Information</h3>
           <ul class="footer-list">
-            <li>123456789</li>
-            <li>Lombok, INDONESIA</li>
+            <li>0766395253</li>
+            <li>Casa, Omnia School</li>
           </ul>
         </div>
 
@@ -184,7 +184,7 @@
         </div>
       </div>
 
-      <span class="footer-copy">&#169; Abdul Aziz. All rights</span>
+      <span class="footer-copy">&#169; Ibrahima Lo. Etudiant Omnia </span>
     </footer>
 
     <a href="#" class="scroll-up" id="scroll-up">

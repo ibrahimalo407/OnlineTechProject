@@ -76,7 +76,7 @@
               </a>
               </article>
             @endforeach
-    
+
             </div>
             <div
               class="swiper-button-next"

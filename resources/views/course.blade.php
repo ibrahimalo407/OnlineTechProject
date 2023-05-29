@@ -17,13 +17,13 @@
               <li>
                  @if ($lesson->free_lesson)
                     <a class="lesson-title" href="{{ route('lessons.show', [$lesson->course_id, $lesson->slug]) }}"><i class="bx bx-play-circle"></i>{{ $lesson->title }}</a>
-                @else   
+                @else
                   @if (!$purchased_course)
                     <a class="lesson-title" aria-disabled="false" style="cursor:  alias" href="#"><i class='bx bx-lock'></i>Another course {{ $lesson->count() }}</a>
-                  @else  
+                  @else
                     <a class="lesson-title" href="{{ route('lessons.show', [$lesson->course_id, $lesson->slug]) }}"><i class="bx bx-play-circle"></i>{{ $lesson->title }}</a>
                   @endif
-                @endif 
+                @endif
             </li>
              @endforeach
             </ul>

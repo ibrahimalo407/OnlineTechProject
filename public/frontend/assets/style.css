@@ -4,8 +4,8 @@
     --header-height: 3.5rem;
 
     /* colors */
-    --first-color: #fbcaff;
-    --button-color: #ff008e;
+    --first-color: #ffb108cd;
+    --button-color: #005eff;
     --button-color-alt: #eb0884;
     --title-color: hsl(0, 0%, 15%);
     --text-color: hsl(0, 0%, 35%);
@@ -135,11 +135,11 @@ button {
 }
 
 body.dark-theme {
-    --first-color: #fbcaff;
-    --button-color: #ff008e;
+    --first-color: #1a75fe68;
+    --button-color: #ffb108;
     --button-color-alt: #eb0884;
-    --title-color: hsl(0, 0%, 95%);
-    --text-color: hsl(0, 0%, 75%);
+    --title-color: hsl(0, 0%, 100%);
+    --text-color: hsl(0, 0%, 100%);
     --body-color: hsl(0, 0%, 12%);
     --container-color: hsl(0, 0%, 16%);
     --border-color: hsl(0, 0%, 20%);
@@ -334,7 +334,7 @@ body.dark-theme {
 }
 
 .home-img-bg {
-    background-image: url("./images/home-bg.jpg");
+    background-image: url("./images/télécharger.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: -300px;
@@ -343,7 +343,7 @@ body.dark-theme {
     height: 430px;
     padding-bottom: 2rem;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
     justify-self: flex-end;
     transform: translateX(1.5rem);
@@ -587,7 +587,7 @@ body.dark-theme {
     border-top: 1px solid var(--border-color);
     margin-top: 1rem;
     padding: 0.8rem 0;
-    background-color: #fbcaff3f;
+    background-color: #ffb108b6;
     border-radius: 0.2rem;
 }
 
@@ -783,12 +783,12 @@ body.dark-theme {
 
 .newsletter-title {
     font-size: var(--h1-font-size);
-    color: hsl(0, 0%, 15%);
+    color: hsl(0, 0%, 100%);
     margin-bottom: var(--mb-1-5);
 }
 
 .newsletter-description {
-    color: hsl(0, 0%, 35%);
+    color: hsl(0, 0%, 100%);
 }
 
 .newsletter-subscribe {
