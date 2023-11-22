@@ -3,6 +3,17 @@
 return [
 
     /*
+    * Package Service Providers...
+    */
+    \Chatify\ChatifyServiceProvider::class,
+
+
+    /*
+    * Class Aliases
+    */
+    'Chatify' => Chatify\Facades\ChatifyMessenger::class,
+
+    /*
     |--------------------------------------------------------------------------
     | Application Name
     |--------------------------------------------------------------------------

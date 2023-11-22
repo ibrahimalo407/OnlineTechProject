@@ -33,6 +33,9 @@
             <li class="nav-item">
               <a href="{{ route('courses.index') }}" class="nav-link">Course</a>
             </li>
+            <li class="nav-item">
+              <a href="http://127.0.0.1:8000/chatify" class="nav-link">Mes Messages</a>
+            </li>
             @auth
               @if(auth()->user()->isAdmin())
                 <li class="nav-item">
