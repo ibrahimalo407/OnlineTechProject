@@ -15,8 +15,8 @@
 
     <!-- ===== CSS ===== -->
     <link rel="stylesheet" href="{{ asset('frontend/assets/style.css') }}" />
-
-    <title>Responsive Watches website</title>
+    <link rel="{{ asset('frontend/assets/images/G__5_-removebg-preview.png') }}"  href="favicon.ico" type="image/x-icon" style="width: 60px;height: 60px;">
+    <title>OnlineTeach</title>
   </head>
   <body>
     <header class="header" id="header">
