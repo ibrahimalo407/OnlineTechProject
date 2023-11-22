@@ -334,10 +334,10 @@ body.dark-theme {
 }
 
 .home-img-bg {
-    background-image: url("./images/télécharger.jpg");
+    background-image: url("./images/learning_idea.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: -300px;
+    background-position: -280px;
     background-color: var(--first-color);
     width: 258px;
     height: 430px;
@@ -346,7 +346,10 @@ body.dark-theme {
     align-items: center;
     justify-content: center;
     justify-self: flex-end;
-    transform: translateX(1.5rem);
+
+    &:hover{
+        transform: translateX(0.5rem);
+    }
 }
 
 .home-title {
@@ -386,7 +389,7 @@ body.dark-theme {
 }
 
 .button:hover {
-    background-color: var(--button-color-alt);
+    background-color: rgb(255, 192, 19);
 }
 
 .btn-gray {
@@ -565,7 +568,7 @@ body.dark-theme {
 }
 
 .products-button {
-    background-color: var(--button-color);
+    background-color: var(--first-color);
     padding: 0.4rem;
     color: #fff;
     font-size: 1rem;
@@ -579,7 +582,7 @@ body.dark-theme {
 }
 
 .products-button:hover {
-    background-color: var(--button-color-alt);
+    background-color: rgb(0, 102, 255)59, 59, 255;
 }
 
 .products-student {

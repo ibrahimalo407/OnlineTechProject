@@ -26,7 +26,7 @@
                     <span class="products-price">${{ $purchased_course->price }}</span>
                     @if($purchased_course->students()->count() > 5)
                     <button class="products-button">
-                        Popular
+                        Populaire
                     </button>
                     @endif
                     <span class="products-student">
@@ -65,9 +65,9 @@
                 @endfor
                 </div>
                 <span class="products-price">${{ $course->price }}</span>
-                @if($course->students()->count() > 5)
+                @if($course->students()->count() > 3)
                   <button class="products-button">
-                    Popular
+                    Populaire
                   </button>
                 @endif
                 <span class="products-student">

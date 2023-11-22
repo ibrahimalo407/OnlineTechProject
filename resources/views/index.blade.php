@@ -38,7 +38,7 @@
             <a href="#course" class="button btn-small">Discover</a>
           </div>
           <div class="story-images">
-            <img src="{{ asset('frontend/assets/images/OIP.jpg') }}" alt="" class="story-img" />
+            <img src="{{ asset('frontend/assets/images/learning.png') }}" alt="" class="story-img" />
             <div class="story-square"></div>
           </div>
         </div>
@@ -72,7 +72,7 @@
                 <span class="products-price">${{ $course->price }}</span>
                 @if($course->students()->count() > 5)
                   <button class="products-button">
-                    Popular
+                    Populaire
                   </button>
                 @endif
                 <span class="products-student">
@@ -148,7 +148,7 @@
 
                 <div class="testimonial-profile" style="justify-content: center;flex-direction: column;row-gap: 1.4rem;">
                   <img
-                    src="{{ asset('frontend/assets/images/télécharger.jpg') }}"
+                    src="{{ asset('frontend/assets/images/coding.png') }}"
                     alt=""
                     class="testimonial-profile-img"
                   />
