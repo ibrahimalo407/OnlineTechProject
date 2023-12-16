@@ -13,7 +13,7 @@
           </div>
           <div class="detail-data-right">
             <ul>
-            @foreach ($course->publishedLessons->take(1) as $lesson)
+            @foreach ($course->publishedLessons->take(5) as $lesson)
               <li>
                  @if ($lesson->free_lesson)
                     <a class="lesson-title" href="{{ route('lessons.show', [$lesson->course_id, $lesson->slug]) }}"><i class="bx bx-play-circle"></i>{{ $lesson->title }}</a>

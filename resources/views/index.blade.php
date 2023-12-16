@@ -76,7 +76,7 @@
                   </button>
                 @endif
                 <span class="products-student">
-                {{ $course->students()->count() }} students
+                {{ $course->students()->count() }} étudiants 
                 </span>
               </a>
               </article>

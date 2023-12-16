@@ -16,13 +16,13 @@
                           <li class="nav-item">
                             <a href="{{ route('courses.index') }}" class="nav-link">Mes Cours</a>
                           </li>
-                          @auth
+                          {{-- @auth
                             @if(auth()->user()->isAdmin())
                               <li class="nav-item">
                                 <a href="{{ route('admin.courses.index') }}" class="nav-link">Admin</a>
                               </li>
                             @endif
-                          @endauth
+                          @endauth --}}
                         </ul>
                        @auth
                           <ul class="nav-list nav-account" style="margin-top: 1rem">
@@ -127,8 +127,8 @@
             </nav>
             {{-- Internet connection --}}
             <div class="internet-connection">
-                <span class="ic-connected">Connected</span>
-                <span class="ic-connecting">Connecting...</span>
+                <span class="ic-connected">Connecté</span>
+                <span class="ic-connecting">Connection...</span>
                 <span class="ic-noInternet">Aucun acces internet</span>
             </div>
         </div>
